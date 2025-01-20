@@ -3,7 +3,7 @@
     background-color: #CAF0F8;
     height: 90vh;
     max-width: 100%;
-    align-items: center;
+    text-align: center;
 }
 
 .main{
@@ -42,12 +42,11 @@
 
 .homeImage {
     position: relative;
-
 }
 
 .homeImage img {
     max-height: 120px;
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 .startJourney {

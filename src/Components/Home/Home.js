@@ -4,12 +4,16 @@ import house from './house.png';
 import test from './test.png'
 import interview from './interview.png';
 import consulting from './consult.png';
+import NavBar from '../NavBar/NavBar';
 import FeaturesTile from '../FeaturesTile/FeaturesTile';
 import SuccessStoryTile from '../SuccessStoryTile/SuccessStoryTile';
+
+import { Link } from "react-router";
 
 function Home() {
   return (
     <div className="Home">
+        <NavBar />
         <div className='main'>
             <h1>Your Path to Study in the USA Starts Here</h1>
             <p>Find the right university. Understand the application process. Unlock scholarships and financial aid.</p>
@@ -43,12 +47,14 @@ function Home() {
                     subtitle="Choosing the right university is one of the most important decisions of your academic journey. With thousands of options available, it can be overwhelming to know where to start."
                     buttonTitle="Find more"
                 />
-                <FeaturesTile
-                    image={test}
-                    title="Ace Your Admissions Test and Unlock Your Future"
-                    subtitle="Preparing for standardized tests like the SAT or ACT can be daunting, but with the right resources, you can achieve the scores that will open doors to top U.S. universities."
-                    buttonTitle="Find more"
-                />
+                <Link to="/test-prep">
+                    <FeaturesTile
+                        image={test}
+                        title="Ace Your Admissions Test and Unlock Your Future"
+                        subtitle="Preparing for standardized tests like the SAT or ACT can be daunting, but with the right resources, you can achieve the scores that will open doors to top U.S. universities."
+                        buttonTitle="Find more"
+                    />
+                </Link>
                 <FeaturesTile
                     image={interview}
                     title="Secure Your U.S. Student Visa with Confidence"
