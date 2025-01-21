@@ -1,0 +1,53 @@
+.TestPrep .main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .mainPage {
+    max-width: 50%;
+}
+
+.mainPage {
+    text-align: left;
+}
+
+.mainPage h2 {
+    font-size: 50px;
+}
+
+.testTypes {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.testTypes h2 {
+    font-size: 35px;
+}
+
+.testTypes p {
+    font-size: 25px;
+}
+
+.testType {
+    background-color: #52b69a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.testType h2 {
+    font-size: 25px;
+}
+
+.testType p {
+    font-size: 20px;
+}
+
+.testType li {
+    font-size: 18px;
+}

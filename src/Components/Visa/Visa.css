@@ -1,0 +1,83 @@
+.Visa .main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.applySteps {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.applySteps > h2, .experiences > h2 {
+    font-size: 35px;
+}
+
+.applySteps > p, .experiences > p {
+    font-size: 25px;
+}
+
+.applyStep {
+    background-color: #f0ebd8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.applyStep h2 {
+    font-size: 25px;
+}
+
+.applyStep p {
+    font-size: 20px;
+}
+
+.applyStep li {
+    font-size: 18px;
+}
+
+.applyStep a {
+    color: black;
+    text-decoration: underline;
+}
+
+.experiences {
+    margin-left: 5vw;
+    margin-right: 5vw; 
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.experience {
+    display: flex;
+    background-color: #ccd5ae;
+    border: 5px solid lightgray;
+    margin-top: 10px;
+}
+
+.experience img {
+    border-right: 5px solid lightgray;
+}
+
+.experience .rightPart {
+    margin: 20px;
+}
+
+.rightPart h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rightPart p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}

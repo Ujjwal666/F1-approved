@@ -12,6 +12,10 @@
     height: 50px;
 }
 
+#userPhoto {
+    border-radius: 50%;
+}
+
 .NavBar h2{
     text-decoration: none;
     color: white;

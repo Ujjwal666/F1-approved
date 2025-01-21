@@ -55,12 +55,14 @@ function Home() {
                         buttonTitle="Find more"
                     />
                 </Link>
-                <FeaturesTile
-                    image={interview}
-                    title="Secure Your U.S. Student Visa with Confidence"
-                    subtitle="Getting your U.S. student visa is a crucial step in making your dreams of studying abroad a reality. The visa application process can be complex and stressful, but we’re here to help simplify it."
-                    buttonTitle="Find more"
-                />
+                <Link to="/visa">
+                    <FeaturesTile
+                        image={interview}
+                        title="Secure Your U.S. Student Visa with Confidence"
+                        subtitle="Getting your U.S. student visa is a crucial step in making your dreams of studying abroad a reality. The visa application process can be complex and stressful, but we’re here to help simplify it."
+                        buttonTitle="Find more"
+                    />
+                </Link>
                 <FeaturesTile
                     image={consulting}
                     title="Expert Consulting for Your U.S. College Journey"
